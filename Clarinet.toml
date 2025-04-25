@@ -9,6 +9,16 @@ requirements = []
 path = 'contracts/borrower-verification.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.impact-measurement]
+path = 'contracts/impact-measurement.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.lender-verification]
+path = 'contracts/lender-verification.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
